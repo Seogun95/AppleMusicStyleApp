@@ -14,6 +14,8 @@
 		6CFC0B8426A9331C00CF08C6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6CFC0B8226A9331C00CF08C6 /* LaunchScreen.storyboard */; };
 		6CFC0B8D26A9335800CF08C6 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CFC0B8C26A9335800CF08C6 /* HomeViewController.swift */; };
 		6CFC0B8F26A9338400CF08C6 /* TrackCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CFC0B8E26A9338400CF08C6 /* TrackCollectionViewCell.swift */; };
+		6CFC0B9126A9659D00CF08C6 /* TrackManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CFC0B9026A9659D00CF08C6 /* TrackManager.swift */; };
+		6CFC0B9426A9664F00CF08C6 /* Track.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CFC0B9326A9664F00CF08C6 /* Track.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,8 @@
 		6CFC0B8526A9331C00CF08C6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6CFC0B8C26A9335800CF08C6 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		6CFC0B8E26A9338400CF08C6 /* TrackCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrackCollectionViewCell.swift; sourceTree = "<group>"; };
+		6CFC0B9026A9659D00CF08C6 /* TrackManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrackManager.swift; sourceTree = "<group>"; };
+		6CFC0B9326A9664F00CF08C6 /* Track.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Track.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,8 +78,18 @@
 				6CFC0B7D26A9331B00CF08C6 /* Main.storyboard */,
 				6CFC0B8C26A9335800CF08C6 /* HomeViewController.swift */,
 				6CFC0B8E26A9338400CF08C6 /* TrackCollectionViewCell.swift */,
+				6CFC0B9226A9663D00CF08C6 /* Track */,
+				6CFC0B9026A9659D00CF08C6 /* TrackManager.swift */,
+				6CFC0B9326A9664F00CF08C6 /* Track.swift */,
 			);
 			path = Home;
+			sourceTree = "<group>";
+		};
+		6CFC0B9226A9663D00CF08C6 /* Track */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Track;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -150,8 +164,10 @@
 			files = (
 				6CFC0B8F26A9338400CF08C6 /* TrackCollectionViewCell.swift in Sources */,
 				6CFC0B7826A9331B00CF08C6 /* AppDelegate.swift in Sources */,
+				6CFC0B9126A9659D00CF08C6 /* TrackManager.swift in Sources */,
 				6CFC0B7A26A9331B00CF08C6 /* SceneDelegate.swift in Sources */,
 				6CFC0B8D26A9335800CF08C6 /* HomeViewController.swift in Sources */,
+				6CFC0B9426A9664F00CF08C6 /* Track.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

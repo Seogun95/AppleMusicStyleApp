@@ -27,6 +27,7 @@ extension HomeViewController: UICollectionViewDataSource {
     
     // 셀을 어떻게 표시 할까
     func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
+        // TODO: 셀 구성하기
         guard let cell = collectionView.dequeueReusableCell(withReuseIdentifier: "TrackCollectionViewCell", for: indexPath) as? TrackCollectionViewCell else {
             return UICollectionViewCell()
         }
