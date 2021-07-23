@@ -15,14 +15,14 @@ import UIKit
 // 아래 있는 Track을 TrackManager에서 사용하면 됨.
 
 struct Track {
-    let artist: String
     let title: String
+    let artist: String
     let albumName: String
     let artwork: UIImage
     
-    init(artist: String, title: String, albumName: String, artwork: UIImage) {
-        self.artist = artist
+    init(title: String, artist: String, albumName: String, artwork: UIImage) {
         self.title = title
+        self.artist = artist
         self.albumName = albumName
         self.artwork = artwork
     }

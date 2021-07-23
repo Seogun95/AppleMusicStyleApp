@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6C2DFAB626AAD893001827BB /* Extension+AVPlayerItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C2DFAB526AAD893001827BB /* Extension+AVPlayerItem.swift */; };
 		6CFC0B7826A9331B00CF08C6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CFC0B7726A9331B00CF08C6 /* AppDelegate.swift */; };
 		6CFC0B7A26A9331B00CF08C6 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CFC0B7926A9331B00CF08C6 /* SceneDelegate.swift */; };
 		6CFC0B7F26A9331B00CF08C6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6CFC0B7D26A9331B00CF08C6 /* Main.storyboard */; };
@@ -19,6 +20,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		6C2DFAB526AAD893001827BB /* Extension+AVPlayerItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Extension+AVPlayerItem.swift"; sourceTree = "<group>"; };
 		6CFC0B7426A9331B00CF08C6 /* AppleMusicStyleApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AppleMusicStyleApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6CFC0B7726A9331B00CF08C6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		6CFC0B7926A9331B00CF08C6 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -80,6 +82,7 @@
 				6CFC0B8E26A9338400CF08C6 /* TrackCollectionViewCell.swift */,
 				6CFC0B9226A9663D00CF08C6 /* Track */,
 				6CFC0B9026A9659D00CF08C6 /* TrackManager.swift */,
+				6C2DFAB526AAD893001827BB /* Extension+AVPlayerItem.swift */,
 				6CFC0B9326A9664F00CF08C6 /* Track.swift */,
 			);
 			path = Home;
@@ -162,6 +165,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6C2DFAB626AAD893001827BB /* Extension+AVPlayerItem.swift in Sources */,
 				6CFC0B8F26A9338400CF08C6 /* TrackCollectionViewCell.swift in Sources */,
 				6CFC0B7826A9331B00CF08C6 /* AppDelegate.swift in Sources */,
 				6CFC0B9126A9659D00CF08C6 /* TrackManager.swift in Sources */,
