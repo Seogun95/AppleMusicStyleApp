@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		6C2DFAB626AAD893001827BB /* Extension+AVPlayerItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C2DFAB526AAD893001827BB /* Extension+AVPlayerItem.swift */; };
+		6C2DFAE926ABFE46001827BB /* Permission to Dance.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 6C2DFAE826ABFE46001827BB /* Permission to Dance.mp3 */; };
 		6CFC0B7826A9331B00CF08C6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CFC0B7726A9331B00CF08C6 /* AppDelegate.swift */; };
 		6CFC0B7A26A9331B00CF08C6 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CFC0B7926A9331B00CF08C6 /* SceneDelegate.swift */; };
 		6CFC0B7F26A9331B00CF08C6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6CFC0B7D26A9331B00CF08C6 /* Main.storyboard */; };
@@ -21,6 +22,7 @@
 
 /* Begin PBXFileReference section */
 		6C2DFAB526AAD893001827BB /* Extension+AVPlayerItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Extension+AVPlayerItem.swift"; sourceTree = "<group>"; };
+		6C2DFAE826ABFE46001827BB /* Permission to Dance.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Permission to Dance.mp3"; sourceTree = "<group>"; };
 		6CFC0B7426A9331B00CF08C6 /* AppleMusicStyleApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AppleMusicStyleApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6CFC0B7726A9331B00CF08C6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		6CFC0B7926A9331B00CF08C6 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -45,6 +47,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		6C2DFAE726ABFE0C001827BB /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				6C2DFAE826ABFE46001827BB /* Permission to Dance.mp3 */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
 		6CFC0B6B26A9331B00CF08C6 = {
 			isa = PBXGroup;
 			children = (
@@ -70,6 +80,7 @@
 				6CFC0B8026A9331C00CF08C6 /* Assets.xcassets */,
 				6CFC0B8226A9331C00CF08C6 /* LaunchScreen.storyboard */,
 				6CFC0B8526A9331C00CF08C6 /* Info.plist */,
+				6C2DFAE726ABFE0C001827BB /* Resources */,
 			);
 			path = AppleMusicStyleApp;
 			sourceTree = "<group>";
@@ -81,9 +92,6 @@
 				6CFC0B8C26A9335800CF08C6 /* HomeViewController.swift */,
 				6CFC0B8E26A9338400CF08C6 /* TrackCollectionViewCell.swift */,
 				6CFC0B9226A9663D00CF08C6 /* Track */,
-				6CFC0B9026A9659D00CF08C6 /* TrackManager.swift */,
-				6C2DFAB526AAD893001827BB /* Extension+AVPlayerItem.swift */,
-				6CFC0B9326A9664F00CF08C6 /* Track.swift */,
 			);
 			path = Home;
 			sourceTree = "<group>";
@@ -91,6 +99,9 @@
 		6CFC0B9226A9663D00CF08C6 /* Track */ = {
 			isa = PBXGroup;
 			children = (
+				6CFC0B9026A9659D00CF08C6 /* TrackManager.swift */,
+				6C2DFAB526AAD893001827BB /* Extension+AVPlayerItem.swift */,
+				6CFC0B9326A9664F00CF08C6 /* Track.swift */,
 			);
 			path = Track;
 			sourceTree = "<group>";
@@ -152,6 +163,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6C2DFAE926ABFE46001827BB /* Permission to Dance.mp3 in Resources */,
 				6CFC0B8426A9331C00CF08C6 /* LaunchScreen.storyboard in Resources */,
 				6CFC0B8126A9331C00CF08C6 /* Assets.xcassets in Resources */,
 				6CFC0B7F26A9331B00CF08C6 /* Main.storyboard in Resources */,
